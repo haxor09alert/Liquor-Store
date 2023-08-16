@@ -12,7 +12,7 @@
 	<artifactId>major</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>major</name>
-	<description>Major Project, An e commerce project</description>
+	<description>Major Project, An e-commerce project</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -89,6 +89,11 @@
 			<artifactId>paytm-checksum</artifactId>
 			<version>1.2.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>6.0.11</version>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
@@ -102,7 +107,7 @@
 		</repository>
 		<repository>
 			<id>my-repo1</id>
-			<url> http://artifactorypg.paytm.in/artifactory/libs-release </url>
+			<url>https://artifactorypg.paytm.in/artifactory/libs-release</url>
 		</repository>
 	</repositories>
 	<build>
